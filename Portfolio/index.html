@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mani's Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Chandramani Ramachandran</li>
+            <li><a href='https://www.youtube.com/watch?v=kRQ7Aej7PQk'>Elephants</a></li>
+            <li><a href='https://www.youtube.com/watch?v=jcZUPDMXzJ8'>More Elephants</a></li>
+            
+        </ul>
+    </nav>
+    <div class = 'hero-image'>
+        <div class = 'hero-text'>
+            <h1 style = 'font-size: 20px'>Chandramani Ramachandran</h1>
+            <p>Computer Programmer</p>
+        </div>
+    </div>
+    <main>
+        <div id='main'>
+            <article class="main-articles">
+                <h1>Meet Chandramani</h1>
+                <strong><small>Call me Mani</small></strong>
+                <p>A native son and current resident of San Diego, I have also lived for extended periods at one time or another in Berkeley, CA, Princeton, NJ, New York, NY, and Tamil Nadu, India. As a lifelong student of language and literature, I approach computer programming with a certain critical and aesthetic sensibility developed through the course of my undergraduate and graduate studies in the Humanities. I've found some surprising intersections between coding and my interests in philology, philosophy, and yes, even poetry! </p>
+            </article>
+            <article class="main-articles">
+                <h1>Something I Love</h1>
+                <strong><small></small></strong>
+                <figure>
+                    <img id="fig-image" src = 'images/IMG_1415.JPG'>
+                    <figcaption><em>'I'm a sucker for a well-carved elephant'</em></figcaption>
+                </figure>
+                <p>I am very unique in that I love to travel and excel in sarcasm. Joking aside, I do especially enjoy archaeological tourism. As so much of the contemporary world looks the same everywhere, it seems more with each passing day that the past is the most exotic and mysterious foreign country anyone could hope to visit. I intend one day to spend a good month or two touring the major ancient and medieval temples of Tamil Nadu in South India. Before college I interned for several months at the San Diego Museum of Art, assisting the curator of the Asian art collection in preparing educational materials for museum-goers. Since then, my appreciation for this artistic and architectural side of my heritage has only deepened. In particular, I'm a sucker for a well-carved elephant.</p>
+            </article>
+        </div>
+        <div id="side">
+            <article class="side-article" id="profile">
+                <img id="profile-image" src = 'images/IMG_0784.JPG'>
+                <div id="profile-details">
+                    <h2>Me</h2>
+                    <ul>
+                        <li>San Diego, CA</li>
+                        <li><a href="mailto:chandramani.ramachandran@gmail.com">chandramani.ramachandran@gmail.com</a></li>
+                    </ul>
+                </div>
+            </article>
+            <article class="side-article">
+                <h1>Contact Me</h1>
+                <strong><small>Please reach out</small></strong>
+                <br>
+                <form action="mailto:chandramani.ramachandran@gmail.com" method = 'POST'>
+                    <label for="name"><strong>Name</strong></label>
+                    <br>
+                    <input type="text" id="name" placeholder="Your name here...">
+                    <br>
+                    <label for="body"><strong>Message</strong></label>
+                    <br>
+                    <textarea id="body" placeholder="What's happening?" rows="5"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div>&copy; Chandramani Ramachandran 2023</div>
+    </footer>
+</body>
+</html>
